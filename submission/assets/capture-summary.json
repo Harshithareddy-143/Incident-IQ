@@ -1,0 +1,6 @@
+{
+  "containsGeneric": true,
+  "containsAssisted": true,
+  "showsActualEvidence": true,
+  "noDatabaseWrite": true
+}

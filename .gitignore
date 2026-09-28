@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+backend/.venv/
+backend/**/__pycache__/
+backend/.pytest_cache/
+.pytest_cache/
+*.py[cod]
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+*.log
