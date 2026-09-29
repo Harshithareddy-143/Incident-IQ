@@ -28,6 +28,13 @@ This is a hackathon prototype, not a production incident-management system. The 
 
 The goal is narrower: make organizational memory observable in one engineering workflow. If a prior, confirmed fix helps an engineer ask a better question during the next outage, the memory has done something a stateless answer could not.
 
+## Further reading
+
+- [Incident Response — Google SRE Workbook](https://sre.google/workbook/incident-response/): practical guidance on coordinating responders, roles, communication, and keeping an incident record.
+- [Postmortem Culture: Learning from Failure — Google SRE Workbook](https://sre.google/workbook/postmortem-culture/): why teams document incidents and track corrective actions so lessons can prevent recurrence.
+- [Hindsight: Structured Agent Memory that Retains, Recalls, and Reflects — ACL 2026](https://aclanthology.org/2026.acl-demo.27/): the research paper describing Hindsight’s memory model and operations used by this project.
+- [LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory](https://arxiv.org/abs/2410.10813): a research benchmark for evaluating long-term memory. IncidentIQ has not been evaluated on this benchmark.
+
 ## Project
 
 IncidentIQ uses Next.js, TypeScript, Tailwind CSS, FastAPI, Groq, Supabase, and Hindsight. Run it locally using the steps in the project README. The live comparison makes two Groq requests and one Hindsight recall request; check your provider limits before repeated runs.

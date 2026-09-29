@@ -1,0 +1,6 @@
+2026-09-29T09:14:02Z CRITICAL service=Payments API environment=Production severity=Critical
+2026-09-29T09:14:02Z ERROR HTTP 500 returned for POST /api/checkout
+2026-09-29T09:14:03Z ERROR database connection failed: DATABASE_URL is not set
+2026-09-29T09:14:03Z ERROR checkout request failed; request_id=req-demo-018
+2026-09-29T09:14:15Z WARN elevated payment failures began immediately after production deployment
+2026-09-29T09:15:00Z INFO impact: customers cannot complete checkout; payment provider is healthy

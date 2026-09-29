@@ -15,4 +15,18 @@ out/
 next-env.d.ts
 *.tsbuildinfo
 *.log
+!sample_incident.log
 /Microsoft/Windows/PowerShell/ModuleAnalysisCache
+
+# Unrelated workspace exercises and personal assets
+/javascript/
+/Microsoft/
+/basket.png
+/buildava.html
+/dump-page.html
+/grid.html
+/industry.html
+/input.css
+/output.css
+/myimg.jpeg
+/telephone.webp
